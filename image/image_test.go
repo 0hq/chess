@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/notnil/chess"
+	"github.com/0hq/chess"
 	"github.com/notnil/chess/image"
 )
 

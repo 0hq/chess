@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/0hq/chess"
 	svg "github.com/ajstarks/svgo"
-	"github.com/notnil/chess"
 	"github.com/notnil/chess/image/internal"
 )
 

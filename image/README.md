@@ -63,7 +63,7 @@ import (
 	"os"
 
 	"github.com/0hq/chess"
-	"github.com/notnil/chess/image"
+	"github.com/0hq/chess/image"
 )
 
 func main() {

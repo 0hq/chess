@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/0hq/chess"
-	"github.com/notnil/chess/opening"
+	"github.com/0hq/chess/opening"
 )
 
 func ExampleFind() {

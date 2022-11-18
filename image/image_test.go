@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/0hq/chess"
-	"github.com/notnil/chess/image"
+	"github.com/0hq/chess/image"
 )
 
 const expectedMD5 = "08aaa6fcfde3bb900fc54bdfef3d5c81"

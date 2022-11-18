@@ -1,10 +1,10 @@
 # chess
 
-[![Build and Test](https://github.com/notnil/chess/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/notnil/chess/actions/workflows/build-and-test.yaml)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/notnil/chess)
-[![Coverage Status](https://coveralls.io/repos/notnil/chess/badge.svg?branch=master&service=github)](https://coveralls.io/github/notnil/chess?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/notnil/chess)](https://goreportcard.com/report/notnil/chess)
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/notnil/chess/master/LICENSE)
+[![Build and Test](https://github.com/0hq/chess/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/0hq/chess/actions/workflows/build-and-test.yaml)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/0hq/chess)
+[![Coverage Status](https://coveralls.io/repos/0hq/chess/badge.svg?branch=master&service=github)](https://coveralls.io/github/0hq/chess?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/0hq/chess)](https://goreportcard.com/report/0hq/chess)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/0hq/chess/master/LICENSE)
 
 ## Introduction
 
@@ -14,19 +14,19 @@
 
 ## Repo Structure
 
-| Package     | Docs Link                                 | Description                                                                            |
-| ----------- | ----------------------------------------- | -------------------------------------------------------------------------------------- |
-| **chess**   | [notnil/chess](README.md)                 | Move generation, serialization / deserialization, turn management, checkmate detection |
-| **image**   | [notnil/chess/image](image/README.md)     | SVG chess board image generation                                                       |
-| **opening** | [notnil/chess/opening](opening/README.md) | Opening book interactivity                                                             |
-| **uci**     | [notnil/chess/uci](uci/README.md)         | Universal Chess Interface client                                                       |
+| Package     | Docs Link                              | Description                                                                            |
+| ----------- | -------------------------------------- | -------------------------------------------------------------------------------------- |
+| **chess**   | [0hq/chess](README.md)                 | Move generation, serialization / deserialization, turn management, checkmate detection |
+| **image**   | [0hq/chess/image](image/README.md)     | SVG chess board image generation                                                       |
+| **opening** | [0hq/chess/opening](opening/README.md) | Opening book interactivity                                                             |
+| **uci**     | [0hq/chess/uci](uci/README.md)         | Universal Chess Interface client                                                       |
 
 ## Installation
 
 **chess** can be installed using "go get".
 
 ```bash
-go get -u github.com/notnil/chess
+go get -u github.com/0hq/chess
 ```
 
 ## Usage
@@ -86,7 +86,7 @@ import (
 	"time"
 
 	"github.com/0hq/chess"
-	"github.com/notnil/chess/uci"
+	"github.com/0hq/chess/uci"
 )
 
 func main() {

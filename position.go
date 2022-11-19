@@ -71,7 +71,7 @@ func (pos *Position) IsInCheck() bool {
 }
 
 // Make a null move.
-func (pos *Position) nullMove() *Position {
+func (pos *Position) NullMove() *Position {
 	cp := pos.copy()
 	cp.turn = cp.turn.Other()
 	if pos.turn == Black {

@@ -65,6 +65,22 @@ func StartingPosition() *Position {
 	return pos
 }
 
+// Returns whether the position is in check.
+func (pos *Position) IsInCheck() bool {
+	return pos.inCheck
+}
+
+// Make a null move.
+func (pos *Position) nullMove() *Position {
+	cp := pos.copy()
+	cp.turn = cp.turn.Other()
+	if pos.turn == Black {
+		cp.moveCount++
+	}
+	cp.validMoves = nil
+	return cp
+}
+
 // Update returns a new position resulting from the given move.
 // The move itself isn't validated, if validation is needed use
 // Game's Move method.  This method is more performant for bots that
